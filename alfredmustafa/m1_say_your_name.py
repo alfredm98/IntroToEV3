@@ -9,7 +9,7 @@ Authors: Dave Fisher and Alfred Mustafa.
 
 
 # ------------------------------------------------------------------
-# TODO: 2. Make the robot say "David Fisher can write E V 3 programs"
+# DONE: 2. Make the robot say "David Fisher can write E V 3 programs"
 #   But of course use YOUR NAME.
 #
 #   Use the samples to figure out the necessary lines of code.
@@ -17,3 +17,11 @@ Authors: Dave Fisher and Alfred Mustafa.
 #   Feel free to run it, change it, and run it again with any message you like.
 #   This program is simple, but if you can do this, then you have the tools to do FAR more.
 # ------------------------------------------------------------------
+
+import ev3dev.ev3 as ev3
+
+def main():
+    ev3.Sound.speak('Alfred Mustafa can write E V 3 programs').wait()
+
+
+main()

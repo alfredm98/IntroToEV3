@@ -21,12 +21,6 @@ Authors: Dave Fisher and Alfred Mustafa.
 # ------------------------------------------------------------------
 
 import ev3dev.ev3 as ev3
-
-def main():
-    ev3.Sound.speak('Alfred')
-
-main()
-
 import time
 
 
@@ -38,7 +32,7 @@ def main():
     ev3.Sound.speak("Drive demo").wait()
 
     # ------------------------------------------------------------------
-    # TODO: 3
+    # DONE: 3
     #   Read the code and see if you can start learning the API by example
     #       ** Ask a TA or your professor for help as needed. **
     # ------------------------------------------------------------------
