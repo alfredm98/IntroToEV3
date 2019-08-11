@@ -21,7 +21,7 @@ Authors: Dave Fisher and Alfred Mustafa.
 import ev3dev.ev3 as ev3
 
 def main():
-    ev3.Sound.speak('Alfred Mustafa can write E V 3 programs').wait()
+    ev3.Sound.speak('Alfred Mustafa can write E V 3 programs')
 
 
 main()
